@@ -70,8 +70,8 @@ contract SHAQ is Ownable, ERC20Capped {
   uint public constant TOKEN_CAPPED = 323232323434343434343434323336 * (10 ** 18);
   string public creator;
 
-  constructor() ERC20Capped(TOKEN_CAPPED) ERC20("Shaq", "SHAQ") {
-    creator = "https://shaq.io";
+  constructor() ERC20Capped(TOKEN_CAPPED) ERC20("Dunk", "SHAQ") {
+    creator = "https://dunk.meme";
   }
 
   function mint(uint _amount, address _holder) external onlyOwner {
